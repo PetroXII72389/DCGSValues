@@ -1,24 +1,44 @@
-
 html, body{
   font-family: 'Roboto', sans-serif;
   height: 100%;
-  background-color: #f0eceb;
+  background-color: white;
 }
 
-#NavWrapper{
-  background-color: #003366;
-  float: left;
-  box-sizing: border-box;
-  width: 200px;
-
-  padding-top: 50%;
-  padding-bottom: 50%;
-
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 }
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
 
 
 .Button{
@@ -40,7 +60,7 @@ html, body{
 }
 
 #MainWrapper{
-  margin-left: 200px;
+  margin-left: 100px;
   position: absolute;
   top: 0;
   left: 0;
@@ -68,11 +88,11 @@ html, body{
 
 .TitleCont{
   color: darkslategray;
-  padding-top: 250px;
+  padding-top: 100px;
   padding-bottom: 250px;
   text-align: center;
 
-  background-image: url('https://populistcleaning.com/wp-content/uploads/2017/07/corevalueshandshake.png');
+  background-image: url('http://www.foodnet.ltd.uk/uploads/images/582/071219.jpg');
   background-size: medium;
   background-repeat: no-repeat;
   background-position: center;
