@@ -1,0 +1,135 @@
+
+html, body{
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  background-color: #f0eceb;
+}
+
+#NavWrapper{
+  background-color: #003366;
+  float: left;
+  box-sizing: border-box;
+  width: 200px;
+
+  padding-top: 50%;
+  padding-bottom: 50%;
+
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+.Button{
+  background-color: #545454;
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  align-self: right;
+
+  float: right;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.Button:hover{
+  background-color: #202114
+}
+
+#MainWrapper{
+  margin-left: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Title{
+  font-size: 100px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.TitleSub{
+  font-size: 60px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: black;
+}
+
+.Cont{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.TitleCont{
+  color: darkslategray;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+
+  background-image: url('https://populistcleaning.com/wp-content/uploads/2017/07/corevalueshandshake.png');
+  background-size: medium;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2, h3, h4{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 200%;
+  color: rgb(60, 60, 60);
+}
+
+table{
+  width: 100%
+}
+
+thead{
+  text-align: left;
+}
+
+.link{
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  background-color: #DEDEDE;
+  padding: 5px;
+  left: 15%;
+  right: 15%;
+  border: 1px solid black;
+}
+
+.link:hover{
+  background-color: #CCCCCC;
+}
+
+@media screen and (max-width:480px) {
+  #NavWrapper{
+    float: none;
+    padding: 20px;
+    width: 100%;
+    position: static;
+  }
+
+  .Button{
+    float: none;
+  }
+
+  #MainWrapper{
+    position: static;
+    margin-left: 0px;
+  }
+
+  .Title{
+    font-size: 300%;
+  }
+
+  .TitleSub{
+    font-size: 200%;
+  }
+}
