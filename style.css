@@ -1,4 +1,3 @@
-
 html, body{
   font-family: 'Roboto', sans-serif;
   height: 100%;
@@ -61,7 +60,7 @@ html, body{
 }
 
 #MainWrapper{
-  margin-left: 200px;
+  margin-left: 100px;
   position: absolute;
   top: 0;
   left: 0;
@@ -89,11 +88,11 @@ html, body{
 
 .TitleCont{
   color: darkslategray;
-  padding-top: 250px;
+  padding-top: 100px;
   padding-bottom: 250px;
   text-align: center;
 
-  background-image: url('https://populistcleaning.com/wp-content/uploads/2017/07/corevalueshandshake.png');
+  background-image: url('http://www.foodnet.ltd.uk/uploads/images/582/071219.jpg');
   background-size: medium;
   background-repeat: no-repeat;
   background-position: center;
